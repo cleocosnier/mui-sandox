@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@1,400..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: .875rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.al-start {
+  align-items: flex-start;
+}
+
+.al-end {
+  align-items: flex-end;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.just-start {
+  justify-content: flex-start;
+}
+
+.just-end {
+  justify-content: flex-end;
+}
+
+.just-between {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.aspect-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.vpd {
+  padding-top: var(--vpd);
+  padding-bottom: var(--vpd);
+}
+
+.hpd {
+  padding-left: var(--hpd);
+  padding-right: var(--hpd);
+}
+
+span.italic {
+  font-family: 'Playfair Display';
+}
+
+.rounded-big {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.aspect-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1200px) {
+  .w-md-100 {
+    width: 100%;
+  }
+}
